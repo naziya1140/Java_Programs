@@ -24,3 +24,5 @@ functions of JIT(used ocasionally for optimization)
 - The JIT compiler monitors execution and identifies "hot spots"—methods or loops that are executed frequently.
 - These hot spots are compiled into native machine code (used in special memory location called code cache)
 - Subsequent executions use the compiled native code, which is much faster than interpreted bytecode.
+
+The object formed is saved in the heap memory and a reference of the variable is given in the object name.
