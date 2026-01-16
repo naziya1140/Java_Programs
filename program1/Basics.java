@@ -1,6 +1,6 @@
 import java.util.*;
 
-class P1Basics{
+class Basics{
     public static void main(String args[]){
         //Rules for compilation:- 
         //1.If any class is public then while compiling writing javac filename.java 
