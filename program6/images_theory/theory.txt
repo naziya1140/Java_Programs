@@ -9,3 +9,12 @@ why multiple Inheritance not supported in java?
 ans: Because if a and b both inherits their function in c, if function of same name is present
 in a and b but not in c, and it is getting called in c, then it will create confusion.
 
+what is method overriding? 
+when we have same name function in both super and sub class, if we call the function with the object 
+of the child class, then function of the child class is called. It means the parent class function 
+is overrided. It is runtime polymorphism( it is decided at runtime which function will be called).
+
+what is method overloading?
+multiple function having same name but different signatures, like having different no of param, types of params
+return type, then during compile time it is decided which function is called looking at with which function
+the value matches. This is called compile time polymorphism.
