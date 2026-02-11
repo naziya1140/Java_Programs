@@ -1,0 +1,2 @@
+If the outer class is static then it is not possible to create innerclass because you can't 
+create object of the 
