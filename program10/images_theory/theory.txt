@@ -1,0 +1,14 @@
+Abstract class and Method
+
+1. An abstract class can have abstract methods, which must be implemented by the class that extends it.
+If a subclass does not implement all abstract methods, it must also be declared abstract.
+
+2. You cannot create an object of an abstract class.
+
+3. If a superclass has no abstract methods and a subclass extends it,
+the subclass does not need to be abstract, and its object can be created.
+
+4. A class with no abstract methods can still be declared abstract.
+
+5. An abstract class can contain normal (non-abstract) methods that provide common behavior.
+Subclasses may override these methods, but it is not compulsory.
