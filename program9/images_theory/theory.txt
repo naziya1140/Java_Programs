@@ -1,0 +1,4 @@
+3 uses of final Keyword
+Final class -> Used so that no one can extend a class.
+Final Variable -> Used for declaring constant variable.
+Final Method -> Used to stop method overriding, method declared with final keyword can't be overrided.
