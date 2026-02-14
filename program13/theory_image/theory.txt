@@ -1,0 +1,5 @@
+enum EnumName { 
+    CONSTANT1, CONSTANT2, CONSTANT3;
+}
+above is the syntax of Enum.
+
