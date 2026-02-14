@@ -26,11 +26,12 @@ public class OverridingDemo {
 
 
         //Dynamic Method Dispatch
-        Superclass obj1 = new Subclass(); //possible as a 
+        Superclass obj1 = new Subclass(); //possible as a subclass is a type of superclass(UPCASTING).
         // Subclass obj2 = new Superclass();//not allowed
 
         obj1.showDetail();
-        // obj1.subclassMethod(); //it is not possible to run method which is not present in super class
-        // because the reference is of superclass and superclass is not having this method.
+        // obj1.subclassMethod(); //it is not possible to run method which is not present
+        //  in super class because the reference is of superclass and superclass is not
+        //  having this method.
     }    
 }
