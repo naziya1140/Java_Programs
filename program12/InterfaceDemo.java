@@ -1,5 +1,3 @@
-import 
-
 interface Phone {
     void turnOn();
     void setAlarm();
