@@ -1,4 +1,4 @@
-## 1. Compile the file using:
+#### 1. Compile the file using:
 javac FileName.java
 This creates class files for all classes in that file.
 
