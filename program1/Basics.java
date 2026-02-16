@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.nio.Buffer;
 import java.util.*;
 
 class Basics{
@@ -31,16 +32,35 @@ class Basics{
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader bf = new BufferedReader(in);
         try{
-            int num1 = Integer.parseInt(bf.readLine()); // error: unreported exception IOException; must be caught or declared to be thrown
+            int num1 = Integer.parseInt(bf.readLine());
             String s1 = bf.readLine();
         } catch(Exception e){
             System.out.println(e);
         }
-        
+
+        // System.in -> is standard input stream which represents keyboard input.
+        // But it provides bytes, not characters.
+
+        // InputStreamReader(System.in) --> This converts byte input into character input.
+
+        //Buffer means reading a chunk into memory and then gives it to you efficiently.
+        //Bf is faster, reduces the no of system calls and it reads everything in String and 
+        // has to be parsed manually.
+
+        //readLine() means reading until enter is pressed.
+        // here bf throws checked exception,
+        // checked exceptions are errors that the compiler forces you to handle.
+        // so it is must to wrap it in try and catch block.
+
+
         //Taking input in java---> 2. using Scanner class.
         Scanner sc = new Scanner(System.in);
         int num2 = sc.nextInt();
         String s2 = sc.nextLine();
+        sc.close();
 
+        // Scanner class throws unchecked exception so it is not must to use try-catch block.
+        // But if you give wrong input (giving string if int is asked) then program will crash.
+        // Close the scanner after using it. 
     }
 }
