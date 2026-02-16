@@ -1,9 +1,7 @@
-// package program4/StaticDemo.java;
+public class StaticDemo{
+    static int staticVar; //Static Variable
 
-class StaticDemo{
-    static int staticVar;
-
-    static{
+    static{ //static block
         System.out.println("static block called");
         staticVar = 10;
     }
@@ -45,6 +43,7 @@ class B{
     }
 }
 
+//C is having it's own main method so after compiling you can run C as well.
 class C{
     static int var;
 
@@ -66,7 +65,6 @@ class C{
 // java StaticDemo--> runs the staticDemo class
 
 //Output
-
 // static block called
 // main method loaded
 // Class A Loaded
@@ -80,9 +78,9 @@ class C{
 // 11
 
 
-//case 2
+//case 2 
 // javac StaticDemo.java
-// java C--> runs the C class 
+// java C--> runs the C class as it is having it's own main method.
 
 //Output
 // static method of C is called
