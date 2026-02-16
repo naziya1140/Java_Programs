@@ -1,11 +1,13 @@
-### 1. Compile the file using:
-javac FileName.java
+## 1. Compile the file using:
+*javac FileName.java*
 This creates class files for all classes in that file.
 
+
 ## 2. Run the program using:
-java ClassName
+*java ClassName*
 Write only the class name that contains the main method.
 Do not write .java or .class.
+
 
 ## Rules for compilation:
 1. If a class is declared public, the file name must be exactly the same as the public class name.
