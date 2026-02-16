@@ -1,9 +1,3 @@
-import java.util.*;
-
-class main{
-    
-}
-
 class ObjectDemo{
     int age; 
     String name;

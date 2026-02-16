@@ -1,6 +1,6 @@
-Execution of java files.
+# Execution of java files.
 
-Short Terms full form-> 
+## Short Terms full form-> 
 JDK = Java Development Kit 
 JRE = Java Runtime Environment
 JVM = Java Virtual Machine
@@ -8,7 +8,7 @@ JVM = Java Virtual Machine
 JDK = JRE + java compiler & debugger. 
 JRE = JVM + libraries.
 
-working 
+## working 
 1. Developer writes a java code. 
 2. using javac filename.java we compile the file (compilation occurs using JDK), compiling here
 means making class files and coverting it into bytecode.(this bytecode will be platform independent).
@@ -18,11 +18,11 @@ don't have to write the .class.
 machine code will be platform dependent. 
 5. JVM has something call JIT 
 
-functions of JIT(used ocasionally for optimization)
-- Java source code is compiled by the Java compiler into bytecode (.class files).
-- The JVM starts by interpreting this bytecode line-by-line.
-- The JIT compiler monitors execution and identifies "hot spots"—methods or loops that are executed frequently.
-- These hot spots are compiled into native machine code (used in special memory location called code cache)
-- Subsequent executions use the compiled native code, which is much faster than interpreted bytecode.
+## functions of JIT(used ocasionally for optimization)
+1. Java source code is compiled by the Java compiler into bytecode (.class files).
+2. The JVM starts by interpreting this bytecode line-by-line.
+3. The JIT compiler monitors execution and identifies "hot spots"—methods or loops that are executed frequently.
+4. These hot spots are compiled into native machine code (used in special memory location called code cache)
+5. Subsequent executions use the compiled native code, which is much faster than interpreted bytecode.
 
 The object formed is saved in the heap memory and a reference of the variable is given in the object name.
