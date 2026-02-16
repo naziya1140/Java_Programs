@@ -1,18 +1,9 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.*;
 
 class Basics{
     public static void main(String args[]){
-        //Rules for compilation:- 
-        //1.If any class is public then while compiling writing javac filename.java 
-        //2. If it is not public then you can give it any name(not recommended)
-
-        //Datatype in java
-        //Non Primitive- Integer, Float, Character, Boolean
-        //Primitive- Byte (1), Short(2), int(4), long(8), float(4), double(8)
-
-        //double is by default type to decimal values and int is default type of integer number. 
-        //for float --> float x = 5.6f;
-        //for long --> long x = 6l;
 
         //TypeCasting, TypeConversion and TypePromotion.
 
@@ -32,8 +23,24 @@ class Basics{
         int z = x + y;
         System.out.println(z);
 
-        int w = 6/4.0;//error
+        //int w = 6/4.0; //error
         int u = 6/4; //will give integer.
-        System.out.println(w);
+
+
+        //Taking input in java---> 1. using BufferedReader class.
+        InputStreamReader in = new InputStreamReader(System.in);
+        BufferedReader bf = new BufferedReader(in);
+        try{
+            int num1 = Integer.parseInt(bf.readLine()); // error: unreported exception IOException; must be caught or declared to be thrown
+            String s1 = bf.readLine();
+        } catch(Exception e){
+            System.out.println(e);
+        }
+        
+        //Taking input in java---> 2. using Scanner class.
+        Scanner sc = new Scanner(System.in);
+        int num2 = sc.nextInt();
+        String s2 = sc.nextLine();
+
     }
 }
