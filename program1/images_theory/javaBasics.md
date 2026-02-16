@@ -1,10 +1,10 @@
 ## 1. Compile the file using:
-*javac FileName.java*
+__javac FileName.java__
 This creates class files for all classes in that file.
 
 
 ## 2. Run the program using:
-*java ClassName*
+__java ClassName__
 Write only the class name that contains the main method.
 Do not write .java or .class.
 
@@ -20,9 +20,5 @@ Non Primitive- Integer, Float, Character, Boolean
 Primitive- Byte (1), Short(2), int(4), long(8), float(4), double(8)
 
 double is by default type to decimal values and int is default type of integer number. 
-for float --> float x = 5.6f;
-for long --> long x = 6l;
-
-![Difference between BufferReader & Scanner Class](image.png)
-
-![Difference between BufferedReader & Scanner Class](image-1.png)
+for float --> __float x = 5.6f__;
+for long --> __long x = 6l__;
