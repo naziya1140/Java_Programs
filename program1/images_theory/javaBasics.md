@@ -22,3 +22,5 @@ for float --> float x = 5.6f;
 for long --> long x = 6l;
 
 ![Difference between BufferReader & Scanner Class](image.png)
+
+![Difference between BufferedReader & Scanner Class](image-1.png)
