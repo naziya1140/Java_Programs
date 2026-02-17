@@ -20,5 +20,8 @@ class Square extends Rhombus{
 
 public class FinalDemo {
     final double PI = 3.14;
-    //PI = 3.1428; //Attempt to change the value of constant variable.
+    //PI = 3.1428; //Attempt to change the value of constant variable, to be written in caps lock.
+    public static void main(String[] args) {
+        System.out.println("Main method of FinalDemo");
+    }
 }
