@@ -26,3 +26,9 @@ machine code will be platform dependent.
 5. Subsequent executions use the compiled native code, which is much faster than interpreted bytecode.
 
 The object formed is saved in the heap memory and a reference of the variable is given in the object name.
+
+## Object Class
+Even if you don't define any method in the top class, you still can use so many other methods.
+These methods are provided by Object class. Every class by default extends the object class. 
+For eg. *.equals*, *.toString()* , *tohash*.
+If you define your own *toString* then object class method will be overrided. 
