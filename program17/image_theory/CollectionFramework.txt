@@ -1,0 +1,14 @@
+Collection is an Interface
+List, Queue and Set all are Interface which extends Collection Interface. 
+
+List is implemented by class  ---> ArrayList, LinkedList, Stack, Vector
+Queue is implemented by class  ---> Priority Queue 
+Set is implemented by class  ---> LinkedHashedSet, HashSet
+
+Deque extends Queue --> and ArrayDeque is implemented by Deque.
+sortedSet extends Set --> and TreeSet is implemented by sortedSet.
+
+Map (has no connection with collection)
+
+
+ArrayList<String> li = new ArrayList<>();
