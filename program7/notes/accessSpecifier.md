@@ -3,8 +3,8 @@ This folder explains how does package(import) works in java.
 multiple Inheritance
 vehicle -> car -> mercedes.
 
-we have 4 access specifiers. 
+## we have 4 access specifiers. 
 1. public (same class, same package, subclass in same pckge, subclass in diff package)
 2. private (same class)
 3. default (same class, same package)
-4. protected (same package ,subclass in diff package)
+4. protected (same package , subclass in diff package)
