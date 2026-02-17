@@ -2,7 +2,8 @@ interface Phone {
     void turnOn();
     void setAlarm();
 }
-interface  SmartPhone extends Phone {
+
+interface SmartPhone extends Phone {
     void playMusic();
 }
 
@@ -24,14 +25,14 @@ class Samsung implements SmartPhone{
     }
 }
 
-public class InterfaceDemo {
+public class InterfaceDemo1 {
     public static void main(String args[]){
         Samsung galaxy = new Samsung();
         galaxy.playMusic();
 
 
         //eg2
-        C obj = new C();
-        obj.eat();
+        // C obj = new C();
+        // obj.eat();
     }    
 }

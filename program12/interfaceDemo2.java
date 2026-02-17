@@ -22,3 +22,11 @@ class C implements A, B{ //multiple inheritance allowed in java.
         System.out.println("Studying");
     }
 }
+
+public class InterfaceDemo2{
+    public static void main(String args[]){
+        //eg2
+        C obj = new C();
+        obj.eat();
+    }    
+}
