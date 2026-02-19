@@ -1,0 +1,23 @@
+## Exceptions
+
+__Compile Time Error__: happens while compiling the file. 
+__Runtime Error__: Code just stops execution due to some issue.
+__Logical Error__: Does not stops the execution of program but code is giving wrong result due to mistake in logic.
+
+Any statement can be normal or critical --->
+__Normal__: No chance of throwing error.
+__Critical__: The line of code can throw error.
+
+The critical statement is needed to be wrapped in try and Catch block. 
+
+Whenever we have runtime errors in the code, the code will abdruptly stop execution so the code after the error won't be executed, but if we wrap it in the try and catch block, then remaining part of the code will also execution even if error occurs.
+
+We have Exception class, each type of Exception (ie. ArithmeticException, IndexOutOfBoundsException) is a class which extends 
+the Exception class. Similarly you can create your own Exception class but it should extend the Exception class. 
+For Custom Exception you have to explicitly throw the error using throw keyword ( eg. *throw new MyException();*)
+
+Difference between Throw and Throws
+1. throw: when you want to throw Exception by your own ( eg. throw new ArithmeticException();)
+2. throws: 
+
+never ever use throws in main method as it will go to JVM ( not recommended)

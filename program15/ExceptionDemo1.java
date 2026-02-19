@@ -7,7 +7,7 @@ class ZeroException extends Exception{
     }
 }
 
-public class ExceptionDemo {
+public class ExceptionDemo1 {
     public static void main(String[] args) {
         //eg.1 --> Multiple catch blocks.
         int i = 0;
